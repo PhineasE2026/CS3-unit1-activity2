@@ -58,3 +58,8 @@ my_dict['grade'] = '1st'
 print(my_dict) # the grade changes to 1st
 my_dict['school'] = 'Central Park'
 print(my_dict) # adds the school key
+del my_dict['age']
+print(my_dict)
+print(my_dict.get('locker'))
+for key, value in my_dict.items(): # prints each key with their respective values
+    print(key, '->', value)
